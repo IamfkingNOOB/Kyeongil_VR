@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 5711499083663175804}
   - component: {fileID: 5711499083663175805}
   - component: {fileID: 850945141385905733}
+  - component: {fileID: 1731437649225816183}
   m_Layer: 0
   m_Name: WorldSpaceUI
   m_TagString: Untagged
@@ -1085,7 +1086,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &5711499083663175804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,13 +1130,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5711499083663175807}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3697a7cd3a5f9d54da5803226459a987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Btn_Temp: {fileID: 442937740158680076}
   Slider_Temp: {fileID: 3690985613012258093}
+--- !u!114 &1731437649225816183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5711499083663175807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f650bd0b223b7ba41b2857fa53c6a864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tempButton: {fileID: 442937740158680076}
+  _tempSlider: {fileID: 3690985613012258093}
 --- !u!1 &5711499083724275407
 GameObject:
   m_ObjectHideFlags: 0
