@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 6853055507244461106}
   - component: {fileID: 3231946680733570012}
   - component: {fileID: 7849037434763564310}
+  - component: {fileID: 4798246916959387555}
   m_Layer: 2
   m_Name: Locomotion System
   m_TagString: Untagged
@@ -349,7 +350,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135922720634941606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0114c208eeefb2a4c8686209f9072ed2, type: 3}
   m_Name: 
@@ -361,6 +362,34 @@ MonoBehaviour:
   Provider_ContinuousTurn: {fileID: 3818204911840513585}
   Provider_SnapTurn: {fileID: 7884399190976994405}
   Provider_Teleportation: {fileID: 4376492894678101421}
+  _leftHandMoveStyle: 0
+  _rightHandTurnStyle: 0
+  _moveSpeed: 0
+  _isEnableStrafe: 0
+  _isUseGravity: 0
+  _isEnableFly: 0
+  _turnSpeed: 0
+  _isEnableTurnAround: 0
+  _snapTurnAmount: 0
+--- !u!114 &4798246916959387555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135922720634941606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ca0cbf7f4f2df408bd2ccf050b6afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _XROrigin: {fileID: 3399627815105454118}
+  _XRBaseController_Left: {fileID: 656071793525891342}
+  _XRBaseController_Right: {fileID: 6159092447159851295}
+  _continuousMoveProviderBase: {fileID: 4789898118484808913}
+  _continuousTurnProviderBase: {fileID: 3818204911840513585}
+  _snapTurnProviderBase: {fileID: 7884399190976994405}
+  _teleportationProvider: {fileID: 4376492894678101421}
 --- !u!1 &1239396127151326372
 GameObject:
   m_ObjectHideFlags: 0
